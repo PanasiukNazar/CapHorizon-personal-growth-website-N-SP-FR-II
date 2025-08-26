@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #1e60aa;
+    --primary: #2bae66ff;
     --secondary: #ff4917;
     --light: #edf1fc;
     --dark: #17224d;
@@ -96,8 +96,8 @@ body {
 
 .navbar .dropdown-toggle::after {
     border: none;
-    content: '\f107';
-    font-family: 'Font Awesome 5 Free';
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
@@ -167,7 +167,7 @@ body {
 .page-header .container::before,
 .page-header .container::after {
     position: absolute;
-    content: '';
+    content: "";
     top: 0;
     left: 0;
     width: 100px;
@@ -313,7 +313,7 @@ body {
 }
 
 .video .btn-play:before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: 0;
     left: 50%;
@@ -328,7 +328,7 @@ body {
 }
 
 .video .btn-play:after {
-    content: '';
+    content: "";
     position: absolute;
     z-index: 1;
     left: 50%;
@@ -487,7 +487,7 @@ body {
 
 .testimonial-carousel .owl-item .testimonial-text::after {
     position: absolute;
-    content: '';
+    content: "";
     width: 0;
     height: 0;
     left: 50%;
@@ -563,8 +563,8 @@ body {
 
 .footer .btn.btn-link::before {
     position: relative;
-    content: '\f105';
-    font-family: 'Font Awesome 5 Free';
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
 }
@@ -585,7 +585,7 @@ body {
 }
 
 /* Google Fonts - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 @media (max-width: 700px) {
     .cookie-wrapper {
@@ -612,12 +612,12 @@ body {
     display: none;
 }
 header i {
-    color: #1e60aa;
+    color: #2bae66ff;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #1e60aa;
+    color: #2bae66ff;
     font-weight: 500;
     text-align: center;
 }
@@ -625,7 +625,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #1e60aa;
+    color: #2bae66ff;
     text-decoration: none;
     text-align: center !important;
 }
@@ -637,10 +637,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #1e60aa;
+    border: 2px solid #2bae66ff;
     color: #fff;
     padding: 8px 0;
-    background: #1e60aa;
+    background: #2bae66ff;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.5s ease;
@@ -649,14 +649,14 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #1e60aa;
+    color: #2bae66ff;
 }
 #declineBtn {
     background-color: #fff;
-    color: #1e60aa;
+    color: #2bae66ff;
 }
 #declineBtn:hover {
-    background-color: #1e60aa;
+    background-color: #2bae66ff;
     color: #fff;
 }
 /* Footer Style */
